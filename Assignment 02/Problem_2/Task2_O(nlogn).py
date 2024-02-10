@@ -14,7 +14,7 @@ with open("input2.txt","r") as file:
         array.append(int(j))
     output = marge_list(array)
 
-    with open("output1.txt", "w") as file2:
+    with open("output2.txt", "w") as file2:
 
         for i in output:
             file2.write(f"{i} ")
