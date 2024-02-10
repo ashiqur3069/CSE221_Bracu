@@ -18,6 +18,6 @@ with open("input2.txt","r") as file:
     size2 = file.readline()
     list2 = file.readline().strip().split()
     output = marge_list(size1,size2,list1,list2)
-    with open("output1.txt", "w") as file2:
+    with open("output2.txt", "w") as file2:
         for i in output:
             file2.write(f"{i} ")
