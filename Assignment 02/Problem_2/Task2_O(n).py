@@ -1,7 +1,7 @@
 def marge_list(size1,size2,list1,list2):
     array = []
     i, j = 0, 0
-    while i < int(size1)-1 and j < int(size2)-1:
+    while i < int(size1) and j < int(size2):
         if int(list1[i]) < int(list2[j]):
             array.append(list1[i])
             i += 1
